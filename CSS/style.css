@@ -1,0 +1,148 @@
+/* CSS Document */
+@import url(reset.css);
+@font-face {
+    font-family: CRC65 ;
+    src: local("CRC65"), url(../fonts/CRC65.otf) format("opentype"); 
+  }
+  @font-face {
+    font-family: CRC55 ;
+    src: local("CRC55"), url(../fonts/CRC55.otf) format("opentype"); 
+  }
+ 
+body{
+background-color:#e6e6e6;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1680px;    
+	height: 950px;
+	
+	}
+#header{
+	margin:73px 209px 0px 209px;
+    height: 45px;
+	width:1262px;
+	position:absolute;
+	}
+#logo{
+	height: 37px;
+    width: 272px;
+    background-image: url(../images/logo.gif);
+    background-repeat: no-repeat;
+   }
+#logo a {
+    display: block;
+    height: 37px;
+    cursor: pointer;
+	}
+
+#buttons{
+	height:31px;
+	width:140px;
+	position: absolute;
+	top:0;
+	left:1123px;
+}
+#buttons div{
+	width:31px;
+	height:31px;
+	float:left;
+	margin-right:4px;
+}
+#facebook a{
+	display:block;
+	width:31px;
+	height:31px;
+	cursor:pointer;
+	background-image:url(../images/facebook.gif);
+	background-repeat:no-repeat;
+}
+#vkontakte a{
+	display:block;
+	width:31px;
+	height:31px;
+	cursor:pointer;
+	background-image:url(../images/vk.gif);
+	background-repeat:no-repeat;
+}
+#youtube a{
+	display:block;
+	width:31px;
+	height:31px;
+	cursor:pointer;
+	background-image:url(../images/youtube.gif);
+	background-repeat:no-repeat;
+}
+#twitter a{
+	display:block;
+	width:31px;
+	height:31px;
+	cursor:pointer;
+	background-image:url(../images/twitter.gif);
+	background-repeat:no-repeat;
+}
+
+#main_picture{
+	height:397px;
+	width:1261px;
+	background-image:url(../images/main.gif);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin:118px 209px 0px 209px;
+}
+#content_zone{
+	width:1262px;
+	height:348px;
+	position:absolute;
+	margin:515px 209px 0px 209px;
+}
+#leftbar{
+	height:314px;
+	width:258px;
+	position:absolute;
+	margin:31px 0px 0px 0px;
+}
+#content{
+	width:650px;
+	height:314px;
+	position:absolute;
+	margin:31px 370px 0px 371px;
+	overflow:auto;
+
+}
+#content h1{
+	color:#262626;      
+	font:26.55px  CRC55;
+	letter-spacing:58px;
+	word-spacing:65px;
+	margin-right:0px;
+}
+#content .title{
+	margin-top:45px;
+	color:#262626;      
+	font:14.43px  Tahoma;
+	letter-spacing:2px;
+	word-spacing:10px;
+}
+#black_line{
+	width:1262px;
+	height:24px;
+	position:absolute;
+	margin:860px 209px 0px 209px;
+	background-image:url(../images/promin.gif);
+	background-repeat:no-repeat;
+}
+#footer{
+	width:1262px;
+	height:63px;
+	position:absolute;
+	margin:884px 209px 0px 209px;
+}
+#footer p{
+	color:#262626;      
+	font:13.85px  CRC55;	
+}
+.copy{
+margin-top:17px;
+}
+
